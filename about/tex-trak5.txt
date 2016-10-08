@@ -1,0 +1,23 @@
+textures/shared_trak5/*
+
+    Author
+        Georges 'TRaK' Grondin (http://trak.mercenariesguild.net/)
+
+    License
+        MIT("X11") license
+
+    Notes
+        - *_p.* files are preview images generated from the diffuse maps.
+
+    Changes:
+        - The normal maps have been converted by using the inverted alpha
+          channel as the blue channel and removing the alpha channel. The
+          imagemagick command was:
+          convert <old> -channel b -fx "1.0 - u.a*1.0" -alpha off <new>
+        - Addition maps may have been desaturated and put into grayscale mode.#
+        - Completely white alpha channels were removed.
+        - The file formats have been converted.
+
+    Source
+        http://trak.mercenariesguild.net/node/3
+
