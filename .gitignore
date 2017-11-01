@@ -1,4 +1,3 @@
 build/
 .paktrace/
-scripts/shared_trak5.shader
 textures/shared_trak5_src/*_p.jpg
